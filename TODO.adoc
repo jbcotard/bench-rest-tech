@@ -1,0 +1,11 @@
+
+* script de test bench
+* 1/ hello world (avec tuto pour identifier le cout de mise au point)
+* 2/ API simple 
+* 3/ API complexe
+* 4/ avec tests 
+* 5/ avec securité
+* 6/ avec programmation reactive
+* 7/ avec docker 
+* 8/ avec sonar
+* 9/ swagger + adoc

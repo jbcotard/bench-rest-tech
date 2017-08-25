@@ -1,0 +1,39 @@
+= avec node 
+
+cd mySimpleRestByNode;
+node 
+http http://localhost:9999/
+#time http http://localhost:9999/
+
+
+= avec vert.x
+
+cd mySimpleRestByVertx;
+mvn clean package
+java -jar target/*-fat.jar
+http http://localhost:9998/
+#time http http://localhost:9998/
+
+
+= avec sparkjava
+
+cd mySimpleRestBySparkJava
+mvn clean package
+java -jar target/mysimplerestbysparkjava-1.0-SNAPSHOT-jar-with-dependencies.jar 
+http http://localhost:9997/
+#time http http://localhost:9997/
+
+
+
+= avec springboot \n\n\n
+
+cd mySimpleRestBySpringboot/
+ mvn package
+java -jar target/mysimplerestbyspringboot-1.0-SNAPSHOT.jar
+http http://localhost:8080/
+
+= avec lagom 
+
+cd mySimpleRestByLagom/mysimplerestbylagom/
+mvn lagom:runAll
+http http://localhost:9000/api/hello/World
